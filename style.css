@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@300;400;700&family=Roboto&display=swap");
+
+h1, h2, h3 {
+font-family: 'Arimo', sans-serif;
+font-weight: bolder;
+text-align: center;
+color: rgb(67, 77, 103);
+}
+
+h1 {
+  color: rgb(254, 254, 254);
+  font-size: 45px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 8px;
+  padding: 100px;
+
+}
+
+h2 {
+  font-size: 17px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+h3 {
+  font-size: ;
+  text-align: center;
+  padding: 40px;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(246, 251, 255);
+  color: rgb(67, 77, 103);
+  font-family: 'Arimo', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
+
+}
+#rectangle {
+background-color: rgb(244, 209, 210);
+height: 300px;
+margin: 20px 10px;
+border: 5px solid rgb(222, 209, 209);
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
+  margin-top: -90px;
+}
+p {
+  padding-top: 100px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 60px;
+
+}
+a:hover {
+  color: black;
+}
+
+.card {
+  background-color: rgb(242, 242, 242);
+  margin: 0 10px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,.1);
+}
+
+.card a {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  line-height: 1.6;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding-left: 30px;
+}
+
+@media (max-width: 720px) {
+  .container {
+  width: 500px;
+  }
+}
